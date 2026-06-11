@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'TT TANK';
+	src: url('TTTANK-Bd.eot');
+	src:
+		url('TTTANK-Bd.eot?#iefix') format('embedded-opentype'),
+		url('TTTANK-Bd.woff2') format('woff2'),
+		url('TTTANK-Bd.woff') format('woff'),
+		url('TTTANK-Bd.ttf') format('truetype'),
+		url('TTTANK-Bd.svg#TTTANK-Bd') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT TANK';
+	src: url('TTTANK-Lt.eot');
+	src:
+		url('TTTANK-Lt.eot?#iefix') format('embedded-opentype'),
+		url('TTTANK-Lt.woff2') format('woff2'),
+		url('TTTANK-Lt.woff') format('woff'),
+		url('TTTANK-Lt.ttf') format('truetype'),
+		url('TTTANK-Lt.svg#TTTANK-Lt') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT TANK';
+	src: url('TTTANK-Md.eot');
+	src:
+		url('TTTANK-Md.eot?#iefix') format('embedded-opentype'),
+		url('TTTANK-Md.woff2') format('woff2'),
+		url('TTTANK-Md.woff') format('woff'),
+		url('TTTANK-Md.ttf') format('truetype'),
+		url('TTTANK-Md.svg#TTTANK-Md') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
