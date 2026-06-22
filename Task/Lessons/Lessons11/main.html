@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Строка поиска</legend>
+					<input type="text" name="поиск" maxlength="10" />
+					<input type="submit" />
+					<label><input type="radio" value="google" />google</label>
+					<label><input type="radio" value="on_site" />on site</label>
+				</fieldset>
+			</form>
+		</div>
+		<div>
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Авторизация</legend>
+					<label>Логин <input type="text" name="login" required /></label>
+					<label
+						>Пароль <input type="password" name="password" required
+					/></label>
+					<label
+						><input type="checkbox" name="remember" />Оставаться в
+						системе</label
+					>
+					<input type="submit" value="Войти" />
+				</fieldset>
+			</form>
+		</div>
+		<div class="cell">
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Опрос</legend>
+					<input type="hidden" name="date_voite" value="2013.12.31" />
+					<label
+						><input type="radio" name="rate" value="nothing" />ничего</label
+					>
+					<label
+						><input type="radio" name="rate" value="notbad" />неплохо</label
+					>
+					<label><input type="radio" name="rate" value="good" />хорошо</label>
+					<label><input type="radio" name="rate" value="super" />супер</label>
+					<input type="submit" value="Отправить" />
+				</fieldset>
+			</form>
+		</div>
+		<div>
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Отзыв</legend>
+					<label>Имя <input type="text" name="name" required /></label>
+					<label>e-mail <input type="email" name="email" required /></label>
+					<label>Сообщение <textarea name="message"></textarea></label>
+					<input type="submit" value="Отправить" />
+				</fieldset>
+			</form>
+		</div>
+		<div>
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Списки</legend>
+					<select name="city">
+						<option value="brest">Брест</option>
+						<option value="minsk">Минск</option>
+						<option value="vitebsk">Витебск</option>
+					</select>
+					<select name="cities" multiple size="6">
+						<optgroup label="Города РБ">
+							<option value="brest">Брест</option>
+							<option value="minsk">Минск</option>
+							<option value="vitebsk">Витебск</option>
+						</optgroup>
+						<optgroup label="Города России">
+							<option value="moscow">Москва</option>
+							<option value="ryazan">Рязань</option>
+							<option value="magadan">Магадан</option>
+						</optgroup>
+					</select>
+					<input type="submit" value="Ок" />
+				</fieldset>
+			</form>
+		</div>
+		<div>
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Загрузка файла</legend>
+					<label>Файл: <input type="file" name="file" /></label>
+					<label
+						>Срок хранения (года):
+						<input
+							type="number"
+							name="storage_years"
+							min="1"
+							max="10"
+							value="1"
+					/></label>
+					<input type="submit" value="загрузить" />
+				</fieldset>
+			</form>
+		</div>
+		<div>
+			<form action="https://fe.it-academy.by/TestForm.php">
+				<fieldset>
+					<legend>Валидация HTML5</legend>
+					<input
+						type="text"
+						name="query"
+						pattern="[А-Яа-яЁё\s]+"
+						title="Только русские буквы"
+						placeholder="Только русские буквы"
+					/>
+					<input
+						type="tel"
+						name="phone"
+						pattern="\+\d{3}-\d{2}-\d{7}"
+						placeholder="+375-29-1234567"
+						title="+ХХХ-ХХ-ХХХХХХХ"
+					/>
+					<input type="submit" value="Проверить" />
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
