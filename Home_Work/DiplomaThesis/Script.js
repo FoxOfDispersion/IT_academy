@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="notice-card" role="alertdialog" aria-modal="true">
         <p class="notice-card__text">${message}</p>
         <button class="btn btn--yellow notice-card__btn">ОК</button>
-
     </div>
     `
 		document.body.appendChild(overlay)
